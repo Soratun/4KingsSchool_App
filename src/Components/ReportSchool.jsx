@@ -7,8 +7,8 @@ const ReportSchool = () => {
     return(
         <div>
             <div>
-                <h1 className="text-2xl font-sans font-bold text-black bg-white 
-                shadow-xl shadow-indigo-500/40">สถาบัน</h1>
+                <h1 className="text-2xl font-sans font-bold text-black bg-slate-100 
+                shadow-xl shadow-indigo-500/40 rounded-tl-lg rounded-tr-lg">สถาบัน</h1>
             </div>
             <div>
                 <div className="grid grid-cols-2 gap-4 flexjustify-between 

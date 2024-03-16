@@ -90,15 +90,15 @@ const FormComponent = (props) => {
     return(
         <div>
             <div>
-                <label className="w-15 m-5 p-5 text-2xl font-sans font-bold text-black decoration-solid bg-white
-                shadow-xl shadow-indigo-500/40"> จำนวนคน : </label>
+                <label className="w-15 m-5 p-5 text-2xl font-sans font-bold text-black decoration-solid bg-slate-100
+                shadow-xl shadow-indigo-500/40 rounded-lg" > จำนวนคน : </label>
                 <input type="number" placeholder="ระบุจำนวนคน" onChange={Inputpeople} value={people}
                 className="w-15 p-5 ps-5 box-border md:box-content shadow-xl shadow-indigo-500/40" min={0}/>
             </div>
             <form onSubmit={SaveItem}>
                 <div className='p-5'>
                     <label className='w-15 m-5 p-5 text-2xl font-sans font-bold text-black 
-                    decoration-solid bg-white  shadow-xl shadow-indigo-500/40'>ชื่อ : </label>
+                    decoration-solid bg-slate-100  shadow-xl shadow-indigo-500/40 rounded-lg'>ชื่อ : </label>
                     <input type="text" placeholder="ระบุชื่อ" onChange={InputName} value={name}
                     className='w-15 p-5 ps-5 box-border md:box-content shadow-xl shadow-indigo-500/40'/>
                 </div>
