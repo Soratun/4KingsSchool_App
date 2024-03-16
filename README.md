@@ -1,8 +1,17 @@
-# React + Vite
+# 4KingsSchool_App
+## Install and Run project on VSCode
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+0. ติดตั้ง Node.js ลงเครื่องให้เรียบร้อยก่อน
+1. ดาวน์โหลดโปรเจ็คนี้ลงเครื่อง (เลือก clone git ก็ได้)
+2. เปิดโฟลเดอร์โปรเจ็คใน VSCode
+3. เปิด VSCode Terminal
+4. ติดตั้ง Packages ของโปรเจ็ค (สามารถแก้ไขเลขเวอร์ชั่นของ Packages, Libraries ต่างๆ ให้เป็นเวอร์ชั่นล่าสุด ก่อนทำการติดตั้งได้ ที่ในไฟล์ package.json)
+ ```
+npm install
+```
+5. Run เว็บโปรเจ็ค
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+npm run dev
+```
+### เข้าไปเล่นได้ที่ URL: https://4kings-school-app.netlify.app/
