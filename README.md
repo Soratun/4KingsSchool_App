@@ -12,5 +12,5 @@ npm install
 5. Run เว็บโปรเจ็ค
 
 ```
-npm start
+npm run dev
 ```
