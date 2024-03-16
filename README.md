@@ -14,3 +14,4 @@ npm install
 ```
 npm run dev
 ```
+### เข้าไปเล่นได้ที่ URL: https://4kings-school-app.netlify.app/
